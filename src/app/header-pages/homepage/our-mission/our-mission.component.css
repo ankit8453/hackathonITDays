@@ -1,0 +1,82 @@
+.ourMission {
+  padding: 0 10vw;
+  height: 90vh;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  background: url("/assets/layered-waves-1.svg") no-repeat center center/cover;
+}
+
+.container {
+  padding: 20px;
+  /* background-color: #faecdf; */
+  box-shadow: 0px 0px 10px #faecdf;
+  border-radius: 10px;
+  height: fit-content;
+}
+.container:hover{
+  background-color: #f3c0a1;
+}
+
+h1 {
+  margin-top: 8px;
+  margin: 30px;
+  padding-bottom: 0px;
+}
+
+.content {
+  font-size: 15px;
+  width: 50%;
+  padding: 30px;
+  padding-top: 0px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+img {
+  width: 44vw;
+  box-shadow: -5px 0px 10px #faecdf;
+}
+
+.image {
+  padding: 20px;
+  margin: auto;
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent);
+  mask-image: linear-gradient(to right, black, transparent);
+  margin-left: -90px;
+}
+/* p{
+  text-shadow: 0px 1px 2px orange;
+  color: white;
+} */
+h1{
+  color: black;
+  border-bottom: 1px solid black;
+}
+p{
+  color: black;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+}
+/* read  more*/
+a{
+  font-size: 1.1rem;
+  color: rgb(43, 40, 40);
+  opacity: 0.8;
+}
+a:hover{
+  color:rgb(255, 115, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* #more {display: none;} */

@@ -1,0 +1,33 @@
+<div class="ourMission">
+    <div class="container">
+        <div class="flexbox">
+            <div class="image">
+                <img src="assets/ourmission.jpg" alt="our mission">
+            </div>
+            <div class="content">
+                <h1>Our Mission</h1>
+
+                <p>
+                    {{(readMore) ? text : text | slice:0:500}} <span *ngIf="!readMore">...</span> 
+                    <a href="javascript:;" *ngIf="!readMore" (click)="readMore=true">[Read More]</a>
+                    </p>   
+                    
+                    
+
+        <!-- <p>Our mission is to end hunger and malnutrition by providing sustainable solutions that empower individuals and
+            communities. We believe that everyone has the right to access nutritious food, and we are committed to
+            working towards a world where no one goes hungry.</p>
+        <p>To achieve our mission, we partner with local communities, governments, and organizations to implement
+            innovative and effective programs that address the root causes of hunger. We focus on solutions that are
+            sustainable, scalable, and tailored to the unique needs of each community.
+        </p>
+        <p>We believe that hunger is a solvable problem, and we are committed to doing our part to create a world where
+            everyone has access to the food they need to thrive. We are dedicated to making a measurable and lasting
+            impact, and we will not rest until hunger is no longer a barrier to health, education, and opportunity for
+            individuals and communities around the world.
+        </p> -->
+        <p><strong><i>"Don’t let hunger be our next failure"</i></strong></p>
+    </div>
+    </div>
+    </div>
+</div>

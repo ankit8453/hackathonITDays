@@ -1,0 +1,28 @@
+<nav class="navbar">
+    <img src="assets/uppermost1.jpg" alt="header" />
+    <div class="nav">
+        <img src="assets/foodbridgelogo.png" alt="logo" />
+    <div class="nav-elements">
+        <ul>
+            <!-- <li routerLinkActive="active"><a routerLink="homepage" (click)="gotoHome()">Home</a></li>
+            <li routerLinkActive="active"><a (click)="gotoOurMission()" >Our Mission</a></li>
+            <li routerLinkActive="active"><a (click)="gotoAboutus()">About Us</a></li>
+            <li routerLinkActive="active"><a routerLink="join-us">Join Us</a></li>
+            <li id="inputngo">Find NGO near you :<input type="text" placeholder="Nearby NGO?"/>
+            </li>
+
+            <li id="userdash" routerLinkActive="active"><a routerLink="user-dashboard/user-profile"><img src="assets/user.svg" alt="user"></a></li> -->
+            
+
+            <li routerLinkActive="active" [routerLinkActiveOptions]="linkActiveOptions"><a routerLink="homepage">Home</a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="linkActiveOptions"><a routerLink="homepage" fragment="OurMission">Our Mission</a></li>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="linkActiveOptions"><a routerLink="homepage" fragment="AboutUs">About Us</a></li>
+            <li routerLinkActive="active"><a routerLink="join-us">Join Us</a></li>
+            <li id="inputngo">Find NGO near you :<input type="text" placeholder="Nearby NGO?"/>
+            </li>
+
+            <li id="userdash" routerLinkActive="active"><a routerLink="user-dashboard/user-profile"><img src="assets/user.svg" alt="user"></a></li>
+        </ul>
+    </div>
+</div>
+</nav>

@@ -1,0 +1,79 @@
+.home-body{
+    padding-top: 54px;
+    background-image: linear-gradient(to top, #f3c0a1 2% , transparent 20%);
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+.home-body::before{
+    content: "";
+    position: absolute;
+    background: url(/assets/fooddonatebg1.jpg) no-repeat center center/cover;
+    height: 80vh;
+    padding-top: 10vh;
+    width: 100vw;
+    z-index: -1;
+}
+.left-elements{
+    display: flex;
+    width: 60vw;
+    background-image: linear-gradient(90deg, #f3c0a1 25%, transparent 70%);
+}
+.left-img{
+    height: 100px;
+}
+.home-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-text button{
+    background-color: #EB6019;
+    color: #ffffff;
+    border: 1px solid #EB6019;
+    width: 150px;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-top: 15px;
+    align-self: flex-start;
+    font-size: 15px;
+    font-weight: 600;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.home-text h1{
+    font-size: 1.6rem;
+    margin-top: 45px;
+    margin-bottom: 12px;
+    line-height: 2.6rem;
+}
+.home-text p{
+    font-size: 15px;
+    margin-top: 15px;
+    align-self: flex-start;
+    /* color: #EB6019; */
+}
+.right-elements{
+    display: flex;
+}
+.right-elements #home-img-1 img{
+    max-height: 350px;
+    margin: 150px 59px 0px 0px;
+    width: 33vw;
+    box-shadow: 10px 8px 15px black;
+    filter: contrast(1.4);
+}
+.right-elements #home-img-2 img{
+    margin-top: 10px;
+    max-height: 200px;
+}
+
+/* h1{
+    color: #EB6019;
+    text-shadow: 2px 2px 4px #faecdf;
+} */
