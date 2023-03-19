@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsla(20, 99%, 58%, 0.979);
+}
+button{
+    background-color: hsl(20, 85%, 54%);
+    color: white;
+}
+a{
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
+input:focus{
+    outline: none;
+}
