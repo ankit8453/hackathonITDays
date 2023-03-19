@@ -1,0 +1,17 @@
+<div class="formContainer" >
+    <img class="image" src="assets/login.svg">
+    <div class="formWrapper">
+        <img class="logo" src="assets/logo.svg">
+        <span class="tittle">Login</span>
+        <form class="ap">
+            <label for="email-field">Please enter Email</label>
+            <input type="email" id="email-field" placeholder="hello@xyz.com"/>
+            <label for="password-field">Please enter Password</label>
+            <input type="password" id="password-field" placeholder="**********"/>
+        </form>
+        <a class="forgetpass" routerLink="forget-pass">Forgot password?</a>
+        <button (click)="LoggedIn()">Sign In</button>
+        
+        <p>Don't have an account? <a routerLink="sign-up">Register</a></p>
+    </div>
+</div>

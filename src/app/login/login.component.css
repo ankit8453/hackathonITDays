@@ -1,0 +1,84 @@
+.formContainer{
+    background: linear-gradient(to bottom, #f3c0a1 , #fcefe4f7);
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.tittle{
+    font-size:3ch;
+    font-weight: 800;
+}
+.formWrapper{
+    /* padding-top: 20px; */
+    padding-bottom: 12px;
+    background-color: #ffb88c;
+    height: fit-content;
+    width: 280px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 140px;
+}
+.ap{
+    /* padding-top: 20px; */
+    font-size: 13px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 80%;
+}
+label{
+    margin-bottom: -4px;
+}
+input{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+input:focus{
+    outline: none;
+}
+select{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.logo{
+    padding-top: 20px;
+    height: 90px;
+}
+button{
+    background-color: hsl(20, 85%, 54%) ;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 60%;
+    
+}
+button:hover{
+    background-color: hsla(20, 97%, 63%, 0.979) ;
+}
+.image{
+    height: 85%;
+    margin: 40px 0px 0px 60px;
+}
+p{
+    font-size: 13px;
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+}
+.forgetpass{
+    align-self: flex-end;
+    font-size: 13px;
+    padding-bottom: 14px;
+    padding-right: 30px;
+}

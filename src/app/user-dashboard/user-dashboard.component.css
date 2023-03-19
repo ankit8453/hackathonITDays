@@ -1,0 +1,21 @@
+.container {
+    background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-between; */
+}
+#side-navbar{
+    display: block;
+    width:230px;
+    height: 100vh;
+    position: fixed;
+    background-color: #F4F2F0;
+    left: 0;
+    /* border: 3px solid#EB6019; */
+}
+#content{
+    background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
+    padding: 18px;
+    margin-left: 230px;
+    width: fit-content;
+}

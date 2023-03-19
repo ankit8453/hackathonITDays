@@ -1,0 +1,25 @@
+<div class="formContainer" >
+    <img class="image" src="assets/signup.svg">
+    <div class="formWrapper">
+        <img class="logo" src="assets/logo.svg">
+        <span class="tittle">Register</span>
+        <form class="ap">
+            <label for="name-field">Please enter your Name</label>
+            <input type="text" id="name-field" placeholder="Full Name"/>
+            <label for="email-field">Please enter Email</label>
+            <input type="email" id="email-field" placeholder="hello@xyz.com"/>
+            <label for="password-field">Please enter Password</label>
+            <input type="password" id="password-field" placeholder="**********"/>
+            <label for="categorie">User-Category</label>
+            <select name="categorie">
+                <option value="#">Individual / Social worker</option>
+                <option value="#">Restaurants / Marriage Garden</option>
+                <option value="#">NGOs</option>
+                <option value="#">Others</option>
+            </select>
+        </form>
+        <button (click)="SignedIn()">Sign up</button>
+        
+        <p>Have an account? <a routerLink="login">Login</a></p>
+    </div>
+</div>

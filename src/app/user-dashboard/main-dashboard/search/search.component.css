@@ -1,0 +1,18 @@
+.container {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    padding-bottom: 34px;
+}
+.add-food{
+    background-color: #EB6019;
+    color: white;
+    border: none;
+    width: max-content;
+    border-radius: 10px;
+    padding: 7px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}

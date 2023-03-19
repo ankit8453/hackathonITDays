@@ -1,0 +1,205 @@
+.right-container{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding: 12px ;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+    /* background-color: #333; */
+}
+/* nav li{
+    margin: 0 13px;
+    padding: 0 13px;
+} */
+.user-info{
+    display: flex;
+}
+.user-info .user-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.welcome-Msg{
+    color: rgb(47, 56, 66);
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.sp-x{
+    padding-left:10px;
+}
+.user-name{
+    font-size: 1.5rem;
+    color: #3b3a3aa7;
+    padding-left: 10px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.right-elements{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+/* .user-img{
+    padding-left: 40px;
+    margin-left: 40px;
+} */
+.user-img img{
+    align-items: flex-end;
+    position: relative;
+    margin-left: 70px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+.drawer{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 47px;
+    top: 12px;
+    /* visibility: hidden; */
+}
+.btn-down-drawer{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-down-drawer img{
+    padding: 0;
+    margin: 0;                  
+    border-radius: 50%;
+}
+.container{
+    margin: 0px 15px;
+    display: block;
+    text-align: center;
+
+}
+
+/* drawer  for update Logout button*/
+.profile {
+  position: relative;
+  align-self: center;
+}
+
+.profile p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.drawer {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: -59px;
+  background-color: #ffffffcc;
+  margin-top: 10px;
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.profile:hover .drawer {
+  display: block;
+  
+}
+
+.drawer a {
+    font-size: 13px;
+  display: block;
+  padding: 7px;
+  width: 70px;
+  color: #333;
+  text-decoration: none;
+}
+
+.drawer a:hover {
+  background-color: #f1f1f1;
+  border-bottom: 12px  #EB6019;
+  cursor: pointer;
+}
+/* .active{
+    background-color: #EB6019;
+    color: white;
+    border-bottom: 2px solid #EB6019;
+} */
+
+
+/* For Records */
+
+
+
+.box-info{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 10px;
+    margin-top: 46px;
+    list-style: none;
+    /* box-sizing: border-box; */
+
+}
+.box-info li{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 8px 10px 8px 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.33s cubic-bezier(.25,.8,.25,1);
+}
+.box-info p{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 2px 12px 0 32px;
+}
+.box-info h3{
+    margin: -23px -23px -23px 8px;
+    padding: 1px;
+    display: inline;
+}
+.list-info i{
+    font-size: 1.8rem;
+    color: #EB6019;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.box-info li:hover{
+    /* margin: 12px; */
+    /* padding: 12px; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#info{
+    margin: 0;
+    padding: 0;
+}
+.list-info{
+    /* width: 500px;
+    */
+    margin: 0;
+    padding: 0;
+}
+.book-add-food-main{
+    margin-top: 30px;
+    margin-left: 10px ;
+    padding-left: 12px;
+    border: 2px solid #7b6e6e19;;
+}
