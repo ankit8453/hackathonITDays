@@ -28,7 +28,7 @@ export class MainDashboardComponent {
           'success'
         ).then((finalresult) => {
           if(finalresult.isConfirmed){
-            this._router.navigate(["/homepage"]);
+            this._router.navigate(["/header-pages/homepage"]);
           }
         })
       }
