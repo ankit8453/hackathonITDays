@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./sign-up.component.css']
 })
 export class SignUpComponent {
+  
 
   constructor(private router : Router) 
   {}
