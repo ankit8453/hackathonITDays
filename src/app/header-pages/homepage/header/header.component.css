@@ -1,33 +1,35 @@
-.navbar{
+.navb{
     display: flex;
     flex-direction: column;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0px;
     z-index: 100;
 }
-.navbar img{
-    height: 15px;
+.navb img{
+    width: 1300px;
+    height: 11px;
 }
-.nav{
+.navi{
+    width: 100%;
     display:flex;
     justify-content: space-between;
     background-color: #F4F2F0;
     height: 54px;
 }
-.nav img{
+.navi img{
     margin: auto 30px;
     height: 50px;
-    width: 100px;
+    width: 60px;
 }
-.nav ul{
+.navi ul{
     display: inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     align-items: center;
 }
-.nav li{
+.navi li{
     margin-left: 17px;
     margin-right: 17px;
 }
