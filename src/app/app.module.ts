@@ -30,6 +30,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideFunctions,getFunctions } from '@angular/fire/functions';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+// import { AngularFireModule } from '@angular/fire';
 // import { UserDashboardRoutingModule } from './user-dashboard/user-dashboard-routing.module';
 
 
@@ -56,13 +57,14 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     AddServeFoodComponent,
     FooterComponent,
     ResetPasswordComponent,
-    
+     
   
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),

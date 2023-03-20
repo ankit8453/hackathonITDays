@@ -15,6 +15,19 @@
 }
 }
 
+/* element.style {
+} */
+.container[_ngcontent-exl-c21] {
+    background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
+    height: 100vh;
+    display: flex;
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1706px;
+}
+}
+
 #side-navbar{
     display: block;
     width:230px;
@@ -28,5 +41,5 @@
     background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
     padding: 18px;
     margin-left: 230px;
-    width: fit-content;
+    /* width: 100; */
 }
