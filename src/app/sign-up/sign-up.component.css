@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 .tittle{
-    font-size:3ch;
+    font-size:2.5ch;
     font-weight: 800;
 }
 .formWrapper{
@@ -26,7 +26,7 @@
 }
 .ap{
     font-size: 13px;
-    padding-top: 12px;
+    padding-top: 8px;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
@@ -38,6 +38,7 @@ input{
     border: none;
     border-radius: 5px;
     margin-bottom: 6px;
+    /* margin-top: 1px; */
 }
 input:focus{
     outline: none;
@@ -54,13 +55,15 @@ select:focus{
     outline: none;
 }
 .logo{
-    height: 90px;
+    height: 70px;
     padding-top: 20px;
+    margin-top: 0;
 }
 button{
     background-color: hsl(20, 85%, 54%) ;
     border: none;
     color: white;
+    margin-top: 0px;
     padding: 6px;
     font-weight: 700;
     border-radius: 10px;
@@ -74,9 +77,13 @@ button:hover{
     width: 55vw;
 }
 p{
-    font-size: 13px;
-    margin: 8px;
+    font-size: 12px;
+    margin: 4px;
 }
 a{
     text-decoration: none;
+}
+.ap label{
+    font-size: 12px;
+    margin: 0;
 }

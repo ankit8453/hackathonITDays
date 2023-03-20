@@ -7,11 +7,14 @@ import Swal from 'sweetalert2';
   styleUrls: ['./main-dashboard.component.css']
 })
 export class MainDashboardComponent {
+  userName = "Atul Kumar Gupta";
+  userDesignation = "Software Engineer";
+  userContribution = 0;
   constructor(private _router: Router) {
 
   }
   confirmBox() {
-
+   
     Swal.fire({
       title: 'Do you really want to log out?',
       icon: 'warning',
@@ -28,7 +31,7 @@ export class MainDashboardComponent {
           'success'
         ).then((finalresult) => {
           if(finalresult.isConfirmed){
-            this._router.navigate(["/homepage"]);
+            this._router.navigate(["/header-pages/homepage"]);
           }
         })
       }

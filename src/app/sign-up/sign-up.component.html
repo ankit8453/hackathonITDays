@@ -4,16 +4,22 @@
         <img class="logo" src="assets/logo.svg">
         <span class="tittle">Register</span>
         <form class="ap">
-            <label for="name-field">Please enter your Name</label>
+            <label for="name-field" class="form-control"
+            required minlength="4" appForbiddenName="bob"
+           >Please enter your Name</label>
             <input type="text" id="name-field" placeholder="Full Name"/>
+          
             <label for="email-field">Please enter Email</label>
-            <input type="email" id="email-field" placeholder="hello@xyz.com"/>
+            <input type="email" id="email-field" [required] placeholder="hello@xyz.com"/>
             <label for="password-field">Please enter Password</label>
-            <input type="password" id="password-field" placeholder="**********"/>
+            <input type="password" id="password-field" placeholder="**********" required/>
+            <label for="password-field">Please Confirm your Password</label>
+            <input type="password" id="password-field"  placeholder="**********" required>
             <label for="categorie">User-Category</label>
             <select name="categorie">
-                <option value="#">Individual / Social worker</option>
+                <option value="# ">Individual / Social worker</option>
                 <option value="#">Restaurants / Marriage Garden</option>
+                <option value="#">Animal feeder</option>
                 <option value="#">NGOs</option>
                 <option value="#">Others</option>
             </select>
