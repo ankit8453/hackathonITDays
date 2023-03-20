@@ -23,19 +23,12 @@ import { SearchComponent } from './user-dashboard/main-dashboard/search/search.c
 import { AddServeFoodComponent } from './user-dashboard/main-dashboard/add-serve-food/add-serve-food.component';
 import { FooterComponent } from './header-pages/footer/footer.component';
 import { ResetPasswordComponent } from './user-dashboard/reset-password/reset-password.component';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
-import { provideAuth,getAuth } from '@angular/fire/auth';
-import { provideDatabase,getDatabase } from '@angular/fire/database';
-import { provideFirestore,getFirestore } from '@angular/fire/firestore';
-import { provideFunctions,getFunctions } from '@angular/fire/functions';
-import { provideStorage,getStorage } from '@angular/fire/storage';
-// import { AngularFireModule } from '@angular/fire';
-// import { UserDashboardRoutingModule } from './user-dashboard/user-dashboard-routing.module';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
+    
+    
     AppComponent,
     LoginComponent,
     SignUpComponent,
@@ -57,20 +50,15 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     AddServeFoodComponent,
     FooterComponent,
     ResetPasswordComponent,
-     
-  
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideAuth(() => getAuth()),
-    provideDatabase(() => getDatabase()),
-    provideFirestore(() => getFirestore()),
-    provideFunctions(() => getFunctions()),
-    provideStorage(() => getStorage()),
+    FormsModule,
+    // AngularFireModule.initializeApp(environment.firebase),
+    // AngularFireModule.initializeApp(environment.firebase),
     // UserDashboardRoutingModule,
   ],
   providers: [],
