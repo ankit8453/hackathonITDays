@@ -77,3 +77,25 @@ button a{
     color: #EB6019;
     text-shadow: 2px 2px 4px #faecdf;
 } */
+
+@media (max-width : 980px) {
+    .home-body::before{
+        content: "";
+        position: absolute;
+        background: url(/assets/food_diving.jpg) no-repeat center center/cover;
+        height: 40vh;
+        padding-top: 10vh;
+        width: 100vw;
+        z-index: -1;
+    }
+    .home-body{
+        padding-top: 54px;
+        background-image: linear-gradient(to top, #f3c0a1 2% , transparent 50%);
+        height: 90vh;
+    
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10vh;
+    }
+    
+}
