@@ -26,6 +26,7 @@ h1 {
 
 .content {
   font-size: 15px;
+  position: relative;
   width: 50%;
   padding: 30px;
   padding-top: 0px;
@@ -34,6 +35,17 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation-name: example;
+    animation-duration: 2.3s;
+  
+}
+@keyframes example {
+  /* 0%   {background-color:rgb(175, 105, 105); left:0px; top:0px;} */
+  /* 25%  {background-color:#ba8367; left:200px; top:0px;} */
+  /* 50%  {background-color:rgba(246, 230, 222, 0.732); left:200px; top:200px;} */
+  75%  {background-color:#f69c6f00; left:260px; right:100px;}
+  100% {background-color:rgba(214, 199, 199, 0.227); left:220px; right:0px;}
+
 }
 
 .flexbox {
