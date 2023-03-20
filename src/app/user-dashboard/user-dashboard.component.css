@@ -4,6 +4,17 @@
     display: flex;
     /* justify-content: space-between; */
 }
+/* @media (maxscreen:1500px){
+
+}
+ */
+ 
+@media (max-width: 1660px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1400px;
+}
+}
+
 #side-navbar{
     display: block;
     width:230px;
