@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent {
+  userName = "Atul Kumar Gupta";
+  userDesignation = "Software Engineer";
+  userContribution = 0;
+
+  //  file name
+    fileName = "";
+    
+
 
 }

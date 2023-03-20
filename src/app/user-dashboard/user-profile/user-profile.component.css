@@ -136,3 +136,8 @@
         color: #EB6019;
         margin-bottom: 10px;
     }
+    /* Credentials */
+
+    .file-input {
+        display: none;
+      }
