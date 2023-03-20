@@ -9,7 +9,7 @@
           <li class="breadcrumb-item">
             <a routerLink="/user-dashboard/main-dashboard">Dashboard</a>
           </li>
-          <li class="breadcrumb-item active">/ Profile</li>
+          <li class="breadcrumb-item active">Profile</li>
         </ul>
       </div>
     </div>
@@ -20,24 +20,32 @@
       <div class="profile-data">
         <aside>
           <div class="profile-main-data">
-            <div class="profile-img">
-              <img src="assets/User-Profile-PNG-File.png" width="68px" alt="user" />
-              <!-- <p class="img-description">Change Image</p> -->
-            </div>
+            <!-- <p class="img-description">Change Image</p> -->
+            
+            <img src="assets/User-Profile-PNG-File.png" alt="user" />
             <div class="profile-details">
-              <h3 class="user-name">{{userName}}</h3>
-              <p class="user-designation">{{userDesignation}}</p>
+              <p class="user-name">{{ userName }}</p>
+              <p class="user-designation">{{ userDesignation }}</p>
               <div class="profile-action">
-                <a href="#"><i class="fa fa-twitter " style="color: #1da1f2"></i></a>
-                <a href="#"><i class="fa fa-facebook" style="color: #1877f2;"></i></a>
-                <a href="#"><i class="fa fa-envelope" style="color: crimson ;"></i></a>
+                <a href="#"
+                  ><i class="fa fa-twitter" style="color: #1da1f2"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-facebook" style="color: #1877f2"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa fa-envelope" style="color: crimson"></i
+                ></a>
               </div>
-              <p class="contribution-count">contribution count : {{userContribution}}</p>
             
 
-              <div class="btn update-btn"><a href="#"><button>Update Profile</button></a></div>
-              <p *ngSwitch="">Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Ea excepturi alias hic.</p>
+              <div class="btn update-btn">
+                <a href="#"><button>Update Profile</button></a>
+              </div>
+              <p *ngSwitch="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                excepturi alias hic.
+              </p>
             </div>
           </div>
         </aside>
@@ -53,12 +61,14 @@
                 <span class="text"><a href="">foodBridge@example.com</a></span>
               </li>
               <li>
-                <span class="title">User-Type :</span>
+                <span class="title">UserType:</span>
                 <span class="text">NGO</span>
               </li>
               <li>
                 <span class="title">User-ID:</span>
-                <span class="text" style="color: grey;"><a href="">************3123</a></span>
+                <span class="text" style="color: grey"
+                  ><a href="">************3123</a></span
+                >
               </li>
               <li>
                 <span class="title">Address:</span>
@@ -69,27 +79,33 @@
                 <span class="text">Male</span>
               </li>
               <li>
-                    <input type="file" class="file-upload" id="uploadImage" onload=showImageName(this) />
-                    
-                    <!-- <input type="file" class="file-input"
+                <i class="fa fa-link">
+                <input
+                  type="file"
+                  class="file-upload"
+                  id="uploadImage"
+                  onload="showImageName(this)"
+                />
+              </i>
+                <!-- <input type="file" class="file-input"
        (change)="onFileSelected($event)" #fileUpload> -->
 
-<!-- <div class="file-upload"> -->
+                <!-- <div class="file-upload"> -->
 
-   <!-- {{fileName || "No file uploaded yet."}} -->
-<!-- 
+                <!-- {{fileName || "No file uploaded yet."}} -->
+                <!-- 
     <button mat-mini-fab color="primary" class="upload-btn"
       (click)="fileUpload.click()"> -->
-      <!-- <i class="fa fa-link" aria-hidden="true"> attach file</i> -->
-    <!-- </button> -->
-<!-- </div> -->
-                    </li>
+                <!-- <i class="fa fa-link" aria-hidden="true"> attach file</i> -->
+                <!-- </button> -->
+                <!-- </div> -->
+              </li>
             </ul>
           </div>
         </aside>
         <aside>
           <div class="edit-icon">
-            <a><i class="fa fa-edit" ></i></a>
+            <a><i class="fa fa-edit"></i></a>
           </div>
         </aside>
       </div>
