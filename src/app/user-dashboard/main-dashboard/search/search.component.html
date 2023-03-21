@@ -10,32 +10,52 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <form>
+              <form [formGroup]="noteForm">
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Place:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                  <input type="text" class="form-control" id="recipient-name" formControlName="place">
                 </div>
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Mobile Number:</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Serving Quantity:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+                  <input type="text" class="form-control" id="recipient-name" formControlName="mobile">
                 </div>
                 <div class="mb-3">
                   <label for="recipient-name" class="col-form-label">Food Image:</label>
-                  <input type="file" class="form-control" id="recipient-name">
+                  <input type="file" class="form-control" id="recipient-name" formControlName="image">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Food Discription</label>
+                  <textarea class="form-control" id="message-text" formControlName="decription"></textarea>
                 </div>
               </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Add Item</button>
+              <button type="button" class="btn btn-primary" (click)="addNote()" [disabled]="noteForm.invalid">Add Item</button>
             </div>
           </div>
+          
         </div>
       </div>
+      <div class="food-details-container">
+        <div class="div-container" *ngFor="let note of noteData">
+            <div class="Food-card event-card">
+                <div class="card-body">
+                    <img src="assets/donate.jpg" alt="" id="info-img">
+                    <p class="tagging-type A">Available</p>
+                    <h5 class="card-title name">{{note.desc}} </h5>
+                    <!-- <h5 class="qty"> </h5> -->
+                    <h5 class="placeName" style="font-weight: 100; color: rgb(77, 75, 75);">Place : {{note.place}}</h5>
+                    <h5 class="contact-number" style="font-weight: 200;">Contact Number : {{note.mobile}}</h5>
+                    <h5 class="contact-number" style="font-weight: 200;">Food Discription : {{note.desc}}</h5>
+                    <button class="book-now">
+                        Book Now    
+                    </button>
+                </div>
+            </div>
+           
+        </div>
+    </div>
     </div>
     <div class="food-data">
         <app-add-serve-food></app-add-serve-food>
