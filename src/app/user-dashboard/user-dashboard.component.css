@@ -26,7 +26,13 @@
 }
 #content{
     background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
-    padding: 18px;
-    margin-left: 230px;
-    width: fit-content;
+    padding-left: 60px;
+    margin-left: 178px;
+    width: 1800rem;
 }
+
+/* #content[_ngcontent-nwm-c21] {
+    background-image: linear-gradient(to bottom, #f3c0a1 , #fdebdbf7, white);
+    padding: 18px;
+    margin-left: 166px;
+    /* width: -moz-fit-content; */

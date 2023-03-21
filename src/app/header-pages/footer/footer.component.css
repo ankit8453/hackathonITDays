@@ -32,7 +32,7 @@ footer{
 .footer{
     display: block;
     background-color: #000000;
-    width: 1280px;
+    width: 1680px;
     }
 .footer-col{
     width: 19%;
@@ -110,6 +110,11 @@ footer{
 }
 
 /* Media  queries */
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1820px;
+}
+}
 
 @media (max-width: 1000px) {
     .footer-col {
