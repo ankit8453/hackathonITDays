@@ -20,7 +20,6 @@ import { MainDashboardComponent } from './user-dashboard/main-dashboard/main-das
 import { HeaderPagesComponent } from './header-pages/header-pages.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { SearchComponent } from './user-dashboard/main-dashboard/search/search.component';
-import { AddServeFoodComponent } from './user-dashboard/main-dashboard/add-serve-food/add-serve-food.component';
 import { FooterComponent } from './header-pages/footer/footer.component';
 import { ResetPasswordComponent } from './user-dashboard/reset-password/reset-password.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
@@ -54,7 +53,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderPagesComponent,
     PagenotfoundComponent,
     SearchComponent,
-    AddServeFoodComponent,
     FooterComponent,
     ResetPasswordComponent,
     
